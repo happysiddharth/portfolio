@@ -24,8 +24,12 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
   <!-- =======================================================
   * Template Name: iPortfolio - v3.1.0
@@ -239,7 +243,7 @@
             <div class="resume-item">
               <h4>Bachelors of Technology in Computer Science</h4>
               <h5>2017 - 2021</h5>
-              <p><em>Dr. APJ Abdul Kalam Technical University</em></p>
+              <p><em>Dr. APJ Abdul Kalam Technical University | 7.72 GPA</em></p>
             </div>
             <div class="resume-item">
               <h4>Higher Secondary(CBSE Board)</h4>
@@ -330,17 +334,51 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="card">
                 <a target="_BLANK" href="https://github.com/happysiddharth/Dukaan" title="More Details">
-                <img src="assets/img/portfolio/dukaan.jpg" style="width:100%">
+                  <div class="">
+                    <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel1" data-slide-to="1"></li>
+                        <li data-target="#myCarousel1" data-slide-to="2"></li>
+                      </ol>
+                  
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner">
+                        <div class="item active">
+                          <img src="assets/img/dukaan1.jpg" alt="Los Angeles" style="width:100%;">
+                        </div>
+                  
+                        <div class="item">
+                          <img src="assets/img/dukaan2.jpg" alt="Chicago" style="width:100%;">
+                        </div>
+                      
+                        <div class="item">
+                          <img src="assets/img/portfolio/dukaan.jpg" alt="New york" style="width:100%;">
+                        </div>
+                      </div>
+                  
+                      <!-- Left and right controls -->
+                      <a class="left carousel-control" href="#myCarousel1" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="right carousel-control" href="#myCarousel1" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                   </div>
               
               </a>
-                <div class="container">
+                <div  style="padding: 10px;">
                   <center>
                     <h4><b>Dukaan Clone</b></h4>
                     <p>The app is a DIY platform that enables merchants, retailers, and others to set up their very own e-commerce store.
                     </p>
                   </center>
                   <h5>Tools</h5>
-                    <ul>
+                    <ul >
                       <li>Android SDK</li>
                       <li>ROOM </li>
                       <li>Jetpack support Libraries</li>
@@ -353,9 +391,44 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="card">
               <a target="_BLANK" href="https://github.com/happysiddharth/shopclues-clone" title="More Details">
-              <img src="assets/img/portfolio/shopclue.jpg" style="width:100%">
+              
+         <div class="">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+        
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="assets/img/portfolio/shopclue.jpg" alt="Los Angeles" style="width:100%;">
+              </div>
+        
+              <div class="item">
+                <img src="assets/img/shopclues2.jpg" alt="Chicago" style="width:100%;">
+              </div>
+            
+              <div class="item">
+                <img src="assets/img/shopclues3.jpg" alt="New york" style="width:100%;">
+              </div>
+            </div>
+        
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
             </a>
-              <div class="container">
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+         </div>
+            </a>
+              <div  style="padding: 10px;">
                 <center>
                   <h4><b>Shopeclues Clone</b></h4>
                   <p>The app is an e-commerce platform where anyone can buy products. 
@@ -376,9 +449,42 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="card">
               <a target="_BLANK" href="https://github.com/happysiddharth/coffee-meets-bagel" title="More Details">
-              <img src="assets/img/portfolio/coffeMeetsBagel.jpg" style="width:100%">
+            
+              <div class="">
+                <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel2" data-slide-to="1"></li>
+                    <li data-target="#myCarousel2" data-slide-to="2"></li>
+                  </ol>
+              
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="assets/img/portfolio//coffeMeetsBagel.jpg" alt="Los Angeles" style="width:100%;">
+                    </div>
+              
+                    <div class="item">
+                      <img src="assets/img/coffe2.jpg" alt="Chicago" style="width:100%;">
+                    </div>
+                  
+                   
+                  </div>
+              
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarousel2" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel2" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+               </div>
             </a>
-              <div class="container">
+              <div  style="padding: 10px;">
                 <center>
                   <h4><b>Coffee Meets Bagel Clone</b></h4>
                   <p>This app creates meaningful connections that spark hearts and inspire people to share themselves authentically and enthusiastically. </p>
